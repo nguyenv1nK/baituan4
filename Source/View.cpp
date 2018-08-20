@@ -91,6 +91,7 @@ int View::Mess()
 		break;
 	case '3':
 		system("cls");
+		controller.ShowMessRec(controller.id);
 		break;
 	case '4':
 		system("cls");
